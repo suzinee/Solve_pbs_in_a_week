@@ -28,11 +28,11 @@
       
 		 	int result = 0;
  			for(int i=0; i<N; i++)
- 		       for(int j=0; j<N; j++)
- 		           if(i!=j)
+ 		        	for(int j=0; j<N; j++)
+ 		           		if(i!=j)
 					{
 						result = max(result, arr[i]+arr[j]);
-						printf("i = %d, j = %d\n",i,j);
+						//printf("i = %d, j = %d\n",i,j);
 					}
 			printf("%d\n", result);
 			break;
